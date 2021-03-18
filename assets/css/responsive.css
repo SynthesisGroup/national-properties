@@ -161,8 +161,8 @@
 	
 	.blog-item .text-box { padding: 30px 0 0 0; }
 	
-	.footer { padding-top: 50px; }
-	.footer .copyright { margin-top: 20px; padding: 30px 0; text-align: center; }
+	.footer { padding: 50px 15px 0 !important; }
+	.footer .copyright { margin-top: 20px; padding: 30px 50px; text-align: center; }
 	.footer .copyright p { margin-bottom: 20px; }
 	.footer .copyright .row { display: block; }
 	
@@ -197,7 +197,7 @@
 	
 	.blog-item .text-box { padding: 30px 0px 0px 30px; }
 	
-	.footer { padding-top: 50px; }
+	.footer { padding: 70px 0 0 !important; }
 	.footer .copyright { margin-top: 70px; padding: 40px 0; text-align: inherit; }
 	.footer .copyright p { margin-bottom: 0; }
 	.footer .copyright .row { display: flex; }

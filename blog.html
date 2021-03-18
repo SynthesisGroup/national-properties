@@ -65,20 +65,14 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<!-- :: Navbar -->
-		<nav class="nav-bar">
+		<nav class="nav-bar for-screen">
 			<div class="container">
 				<div class="box-content d-flex align-items-center justify-content-between">
 					<div class="logo">
 						<a href="index.html" class="logo-nav">
-							<img class="img-fluid one" src="assets/images/logo-national-properties-white.png" alt="01 Logo">
-							<img class="img-fluid two" src="assets/images/logo-national-properties-inverse.png" alt="02 Logo">
-						</a>
-						<a href="#open-nav-bar-menu" class="open-nav-bar">
-							<span></span>
-							<span></span>
-							<span></span>
+							<img class="img-fluid" src="assets/images/logo-national-properties-inverse.png" alt="National Properties">
 						</a>
 					</div>
 					<div class="nav-bar-link" id="open-nav-bar-menu">
@@ -95,7 +89,56 @@
 				</div>
 			</div>
 		</nav>
+
+		<!-- :: Navbar -->
+		<nav class="nav-bar for-mobile">
+			<div class="container">
+				<div class="box-content d-flex align-items-center justify-content-between">
+					<div class="logo">
+						<a href="index.html" class="logo-nav">
+							<img class="img-fluid" src="assets/images/logo-national-properties-inverse.png" alt="National Properties">
+						</a>
+						<a href="#open-nav-bar-menu" class="open-nav-bar" data-toggle="modal" data-target="#exampleModalLong">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
 	</header>
+	
+	<!-- Modal -->
+	<div class="modal right fade modal-menu" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">
+						<a href="index.html" class="logo-nav">
+							<img class="img-fluid" src="assets/images/logo-national-properties-inverse.png" alt="National Properties">
+						</a>	
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="nav-bar-link">
+						<ul class="level-1">
+							<li><a href="index.html" class="color-active">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="resources.html">Resources</a></li>
+							<li><a href="solutions.html">Solutions</a></li>
+							<li><a href="faqs.html">FAQ</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- :: Search Box -->
 	<div class="search-box">
